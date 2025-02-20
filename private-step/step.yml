@@ -1,0 +1,15 @@
+title: Optional input
+summary: |
+  Shows how to make an input optional.
+toolkit:
+  bash:
+    entry_file: main.sh
+inputs:
+  - app_path:
+    opts:
+      title: App Path
+      is_required: true
+  - optional_input: ""
+    opts:
+      title: An optional input
+      is_required: false
